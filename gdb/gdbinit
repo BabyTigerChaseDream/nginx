@@ -1,0 +1,5 @@
+set print pretty on
+set breakpoint pending on
+set logging on
+set logging overwrite off
+set logging file nginx-gdb.log 

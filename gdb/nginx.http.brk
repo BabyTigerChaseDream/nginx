@@ -1,0 +1,8 @@
+set breakpoint pending on
+break main
+#break ngx_conf_handler
+break ngx_http_update_location_config
+break ngx_http_finalize_request
+break ngx_http_hello_world
+break ngx_http_hello_world_handler
+break ngx_http_hello_world_module.c:78
